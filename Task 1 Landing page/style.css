@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
+li, a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 520;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: #F2B6B6;
+}
+
+nav{
+    padding-left: 30%;
+}
+
+.logo{
+    text-align: left;
+    text-transform: capitalize;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.icons i{
+   margin-right: 25px;
+   font-size: 19px;
+  
+}
+
+.icons{
+   margin-left: auto;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left:0 ;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.row{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    font-size: medium;
+
+}
+.cards-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+   
+}
+.cards-col img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.layer{
+    margin-top: 10px;
+}
+
+.cards-col img:hover{
+    cursor: pointer;
+    background: rgba(254, 249, 249, 0.1);
+    opacity: 0.6;
+    
+
+}
+
+.cards-col img{
+    position: relative;
+    z-index: 1;
+}
+
+#mail{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#mail form{
+    margin: 1rem;
+    display: flex;
+}
+
+form{
+    display: flex;
+}
+form {
+    /* This bit sets up the horizontal layout */
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    /* This bit draws the box around it */
+    border:2px solid rgb(7, 0, 0);
+    z-index: 2;
+    /* I've used padding so you can see the edges of the elements. */
+    /* padding:2px; */
+  }
+form input{
+    width: 400px;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 14px;
+    outline: none;
+    /* border: 2px solid ; */
+    flex-grow: 2;
+    border: none;
+    
+}
+
+form button{
+    width: 116px;
+    height: 38px;
+    cursor: pointer;
+    background-color: black;
+    font-size: 15px;
+    padding: 5px 3px;
+    color: white ;
+    
+   
+}
+
+
+button{
+    
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 14px;
+    height: 100%;
+  
+}
+
+button:hover{
+    background-color: #F2B6B6;
+}
+
+.last-line li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+}
+
+.top-left{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    background: transparent;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top-left h1{
+    background: transparent;
+    text-shadow: -px 1px 2px black;
+    color:white;
+    font-size: 130px;
+    margin-right: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+     
+} 
+
+.top-left p{
+    background: transparent;
+    font-size: 50px;
+}
+
+.top-left button{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    width:200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background: white;
+    margin-left: 39px;
+}
+
+.top-left button:hover{
+    background-color: black;
+    transition: 0.5s;
+    color: white;
+}
+.fa fa-lg{
+    color: #fff;
+}
